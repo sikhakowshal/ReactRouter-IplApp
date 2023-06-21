@@ -1,0 +1,160 @@
+.latest-match-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #0f172a;
+  border-radius: 14px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    flex-direction: row;
+  }
+}
+
+.line {
+  width: 100%;
+  border: 2px solid #ffffff;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    display: none;
+  }
+}
+
+.match-venue-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-venue-logo-container {
+    width: 60%;
+  }
+}
+
+.match-venue-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.competing-team {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team {
+    font-size: 35px;
+  }
+}
+
+.match-date {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .match-date {
+    font-size: 24px;
+  }
+}
+
+.venue {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .venue {
+    font-size: 18px;
+  }
+}
+
+.match-result {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .match-result {
+    font-size: 18px;
+  }
+}
+
+.competing-team-logo {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+.match-highlights-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .match-highlights-container {
+    width: 20%;
+    align-items: flex-end;
+    padding-left: 0;
+    padding-right: 30px;
+  }
+}
+
+.highlights-title {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .highlights-title {
+    font-size: 18px;
+  }
+}
+
+.highlights-description {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .highlights-description {
+    font-size: 14px;
+  }
+}
